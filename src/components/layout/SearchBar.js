@@ -2,7 +2,7 @@ import React from "react";
 
 const SearchBar = () => {
   return (
-    <na style = {{marginBottom: '30px'}} className = 'blue'>
+    <nav style = {{marginBottom: '30px'}} className = 'blue'>
       <div className="nav-wrapper">
         <form>Name
           <div className="input-field">
@@ -14,7 +14,7 @@ const SearchBar = () => {
           </div>
         </form>
       </div>
-    </na>
+    </nav>
   );
 };
 export default SearchBar;
