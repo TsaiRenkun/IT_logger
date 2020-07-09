@@ -6,7 +6,7 @@ import rootReducer from "./reducers";
 const initialState = {};
 
 const middleware = [thunk];
-
+//setting up redux connection
 const store = createStore(
   rootReducer,
   initialState,
