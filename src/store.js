@@ -14,3 +14,5 @@ const store = createStore(
 );
 
 export default store;
+
+//start on application on 12
