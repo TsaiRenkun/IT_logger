@@ -1,35 +1,18 @@
 {
   "logs": [
     {
+      "message": "Change network",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-09-18T04:58:14.226Z",
       "id": 1
     },
     {
       "id": 2,
-      "message": "Fixed hard drive on workstation 002",
+      "message": "Network Problem",
       "attention": false,
       "tech": "John Doe",
-      "date": "2019-05-31T16:18:04.245Z"
-    },
-    {
-      "message": "1122 wireless down",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T15:46:48.690Z",
-      "id": 3
-    },
-    {
-      "id": 4,
-      "message": "Workstation 026 is up and running",
-      "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2019-05-31T19:57:35.544Z"
-    },
-    {
-      "message": "added network",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2020-09-16T05:51:48.222Z",
-      "id": 6
+      "date": "2020-09-18T05:01:38.258Z"
     }
   ],
   "techs": [

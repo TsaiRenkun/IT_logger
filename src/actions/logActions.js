@@ -89,6 +89,8 @@ export const deleteLog = (id) => async (dispatch) => {
   }
 };
 
+
+
 export const updateLog = (log) => async (dispatch) => {
   try {
     setLoading();
@@ -97,14 +99,14 @@ export const updateLog = (log) => async (dispatch) => {
       method: "PUT",
       body: JSON.stringify(log),
       headers: {
-        "Content-Type": "application-json",
+        "Content-Type": "application/json",
       },
     });
 
-    const data = await res.json
+    const data = await res.json()
 
     dispatch({
-      type: DELETE_LOG,
+      type: UPDATE_LOG,
       payload: data,
     });
   } catch (err) {
@@ -114,6 +116,7 @@ export const updateLog = (log) => async (dispatch) => {
     });
   }
 };
+
 //Set current
 export const setCurrent = (log) => {
   return {
